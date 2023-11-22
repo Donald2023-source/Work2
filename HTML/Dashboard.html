@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="../Css/Dashboard.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <script src="main.js"></script>
+    <script src="../Javascript/main.js"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
@@ -14,13 +14,13 @@
     <!-- ASIDE START -->
     <div class="conc" id="blur">
    <aside>
-    <img class="logo" src="Images__Dashboard/logo.jpg" alt="">
+    <img class="logo" src="../Images/logo.jpg" alt="">
 <div class="container__aside">
 <div class="links__top">
-    <li><a class="first" href=""><i class="uil uil-create-dashboard"></i>Dashboard</a></li>
-    <li><a class="second" href="Payments.html"><i class="uil uil-transaction"></i>Payment</a></li>
-    <li><a class="third" href="Transactions.html"><i class="uil uil-notes"></i>Transactions</a></li>
-    <li><a class="fourth" href="Settings.html"><i class="uil uil-cog"></i>Settings</a></li>
+    <li><a class="first" href="../HTML/Dashboard.html"><i class="uil uil-create-dashboard"></i>Dashboard</a></li>
+    <li><a class="second" href="../HTML/Payments.html"><i class="uil uil-transaction"></i>Payment</a></li>
+    <li><a class="third" href="../HTML/Transactions.html"><i class="uil uil-notes"></i>Transactions</a></li>
+    <li><a class="fourth" href="../HTML/Settings.html"><i class="uil uil-cog"></i>Settings</a></li>
 
 </div>
 
@@ -46,9 +46,10 @@
     <span id="month">Jan-</span>  
     <span id="year">2023</span>
   </div>
-  <a href=""><img id="Dark__mode" src="Images__Dashboard/Dark mode.png"></a>
-  <a href=""> <img id="notification__icon" src="Images__Dashboard/Notification.png"></a>
-  <a href=""><img id="profile" src="Images__Dashboard/Profile.png"></a>
+  
+  <a href=""><img id="Dark__mode" src="../Images__Dashboard/Dark mode.png"></a>
+  <a href=""> <img id="notification__icon" src="../Images__Dashboard/Notification.png"></a>
+  <a href=""><img id="profile" src="../Images__Dashboard/Profile.png"></a>
 
   
 </div>
@@ -73,7 +74,7 @@
     <div class="first__Card">
         <p>Current Balance</p>
         <div class="naira">
-        <img src="Images__Dashboard/naira.png" height="20px" width="40px">
+        <img src="../Images__Dashboard/naira.png" height="20px" width="40px">
         <h3>********</h3>
     </div>
  </div>
@@ -86,17 +87,17 @@
    
     <div class="third__Card">
         <div>
-        <img onclick="openpopup(); toggle()"  src="Images__Dashboard/Vector.png" height="45px">
+        <img onclick="openpopup(); toggle()"  src="../Images__Dashboard/Vector.png" height="45px">
         <p>Add Funds</p>
     </div>
 
     <div>
-       <img src="Images__Dashboard/Vector (1).png" height="45px">
+       <img src="../Images__Dashboard/Vector (1).png" height="45px">
         <p>Transfer Funds</p>
     </div>
 
     <div>
-       <a href=""><img src="Images__Dashboard/Group 27.png" alt="" height="42px"></a>
+       <a href=""><img src="../Images__Dashboard/Group 27.png" alt="" height="42px"></a>
         <p>Make Payments</p>
     </div>
 </div>
@@ -104,7 +105,7 @@
 
 <div class="secondsec">
 <div class="fourth__Card">
-    <img src="Images__Dashboard/Support operator helps to solve the problem.png" alt="">
+    <img src="../Images__Dashboard/Support operator helps to solve the problem.png" alt="">
     <h2>Need help?</h2>
     <p>Our customer care teeam is avaliable 24/7.
         For any queries visit our FAQ section or send us a message
@@ -128,18 +129,19 @@
 </div>
 
 <!-- Popup -->
-<link rel="stylesheet" href="Pay process/Add funds.css">
+<link rel="stylesheet" href="../Css/Add funds.css">
+
 <div class="Container" id="popup">
     <div class="head">
         <div class="heading">
     <h2>Add Funds</h2>
-    <img id="cancelButton" onclick="closepopup(); cancel() " src="close.svg" alt="">
+    <img id="cancelButton" onclick="closepopup(); cancel() " src="../Images/close.svg" alt="">
     </div>
 
    
     <div class="content__Container">
         <div class="top">
-            <img src="Bank.svg" height="40px">
+            <img src="../Images/Bank.svg" height="40px">
             <div class="text">
             <h3>Bank Transfer</h3>
             <h4>Add money via mobile or internet banking</h4>
@@ -153,7 +155,7 @@
             </div>
 
             <div class="card__number">
-                <h4 class="contentToCopy">0099694345 <img id="copyButton" class="copyText" src="copy.svg" alt=""></h4>
+                <h4 class="contentToCopy">0099694345 <img id="copyButton" class="copyText" src="../Images/copy.svg" alt=""></h4>
             </div>                
         </div>
 
@@ -163,12 +165,12 @@
         </div> 
 
         <div class="bottom__card" onclick="nextopen(); toggle2()">
-            <img  src="Card.svg" >
+            <img  src="../Images/card" >
             <div class="text">
                 <h3>Top up with Card</h3>
                 <h4>Add money from your bank card</h4>
             </div>
-            <img src="arrow.svg">
+            <img src="../Images/arrow.svg">
         </div>
     </div>
 </div>
@@ -183,11 +185,11 @@
             <img onclick="closenext(); cancel2()" src="close.svg" alt="">
         </div>
         <div class="Enter">
-            <img src="enter.svg" alt="">
+            <img src="../Images/enter.svg" alt="">
             <input type="text" placeholder="Enter amount">
         </div>
         <div class="btn">
-            <button onclick="cardopen()"><img src="plus.svg">Add Card</button>
+            <button onclick="cardopen()"><img src="../Images/plus.svg">Add Card</button>
         </div>
         <button type="submit" id="first">Next</button>
     </div>
@@ -198,9 +200,9 @@
 <link rel="stylesheet" href="Css/style.css">
 <div class="card__add" id="addcard">
     <div class="top">
-        <img src="back.svg">
+        <img src="../Images/back.svg">
         <h2>Add Card</h2>
-        <img onclick="closecard()" src="close.svg">
+        <img onclick="closecard()" src="../Images/close.svg">
     </div>
 
     <div class="inputs">
@@ -234,7 +236,7 @@
 
 <div class="successful">
     <div class="card__sucess" id="end">
-    <img src="Ellipse 1.png" alt="">
+    <img src="../Images/Ellipse 1.png" alt="">
     <h4>Added successfully</h4>
     <h5>Your will automatically be redirected</h5>
 </div>

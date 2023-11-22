@@ -14,13 +14,12 @@
     border-radius: 20px;
     border: 1px solid #D9D9D9;
     background: #FFF;
-    margin: 40px 30px   ;
+   margin-top: 40px;
 }
 aside{
     display: flex;
     flex-direction: column;
     border: 2px solid black;
-    height: 42rem;
     width: 330px;
     border-radius: 0 25px 25px 0;
     border-radius: 0px 20px 20px 0px;
@@ -28,6 +27,8 @@ aside{
     background: #FFF;
     padding: 40px 0px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 46.8rem;
+    margin-top: 10px;
 }
 
 .logo{
@@ -112,7 +113,7 @@ nav li a{
     margin: 0 20px;
 }
 .settings__container{
-    margin: 10px 0 80px 80px;
+    margin: 70px 0 80px 80px;
     width: 52rem;
 }
 
@@ -188,6 +189,7 @@ line-height: normal;
     border-radius: 4px;
     border: 0.5px solid rgba(0, 0, 0, 0.50);
     margin-bottom: 10px;
+    width: 402px;
 }
 
 .email{
@@ -209,27 +211,6 @@ line-height: normal;
     margin: 0 30px;
 }
 
-.phone{
-    display: flex;
-    border-bottom: 0.5px solid #D9D9D9;
-    margin: 0 30px;
-}
-
-.phone input{
-    border-radius: 4px;
-    border: 0.5px solid rgba(0, 0, 0, 0.50);
-    padding: 10px;
-    margin-left: 95px;
-    width: 402px;
-    margin-bottom: 10px;
-}
-
-.phone h4{
-    display: flex;
-    align-items: center;
-    margin: 0 30px;
-    width: 150px;
-}
 
 .reg__no{
     display: flex;
