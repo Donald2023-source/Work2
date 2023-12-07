@@ -17,7 +17,6 @@ body{
     grid-row-start: 3;
     grid-row-end: 4;
     border-radius: 13px;
-    box-shadow: rgb(44, 44, 44) 3px 3px 6px 1px;
     background-color: #fff;   
 }
 

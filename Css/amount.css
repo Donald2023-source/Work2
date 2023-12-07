@@ -28,9 +28,9 @@ line-height: normal;
 }
 
 .content input{
-    padding: 10px 60px;
+    padding: 20px 60px;
     width: 270px;
-    font-size: 14px;
+    font-size: 17px;
     border-radius: 15px;
     border: 1px solid #006400;
     background: #E5E5E5;
@@ -75,14 +75,18 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 }
 
 #first{
-    padding: 3px 8px;
+    padding: 10px;
     display: flex;
     align-items: center;
     gap: 10px;
     border-radius: 6px;
     width: fit-content;
     height: 40px;
+    border: 1px solid #FFC107;
+    cursor: pointer;
 }
+
+
 
 .btn button{
     margin-left: 180px;
@@ -95,7 +99,10 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
     border-radius: 4px;
     background: #FFC107;
     padding: 15px;
-    width: 400px; 
+    width: 290px; 
+    border: none;
+    cursor: pointer;
+    margin-left: 70px;
 }
 
 .last{
